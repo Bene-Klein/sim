@@ -1,5 +1,5 @@
 /gun/momentumAmp 2.6 MeV
-/run/beamOn 100
+/run/beamOn 10000
 /gun/momentumAmp 5 MeV
 /run/beamOn 100
 /gun/momentumAmp 10 MeV
