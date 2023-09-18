@@ -1,0 +1,4 @@
+/home/senny/sim/build/CMakeFiles/sim.dir
+/home/senny/sim/build/CMakeFiles/Simulation.dir
+/home/senny/sim/build/CMakeFiles/edit_cache.dir
+/home/senny/sim/build/CMakeFiles/rebuild_cache.dir
