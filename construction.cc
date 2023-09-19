@@ -47,6 +47,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicWorld");
     logicGermanium = new G4LogicalVolume(solidGermanium, germanium, "logicGermanium");    
     logicDetector = new G4LogicalVolume(solidDetector, worldMat,"logicDetector");
+    fScoringVolume = logicGermanium;
 
     //G4PVPlacement(*Rotation,*Offset in Threevector,*logic Volume,*name,*Mothervolume,*boolean operation, *copynumber,*check for overlaps)
     physWorld = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.),logicWorld,"physWorld",0,false,0,true);

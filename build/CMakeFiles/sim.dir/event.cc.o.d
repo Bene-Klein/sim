@@ -1,9 +1,7 @@
-CMakeFiles/sim.dir/action.cc.o: /home/senny/sim/action.cc \
- /usr/include/stdc-predef.h /home/senny/sim/action.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/senny/sim/generator.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleGun.hh \
+CMakeFiles/sim.dir/event.cc.o: /home/senny/sim/event.cc \
+ /usr/include/stdc-predef.h /home/senny/sim/event.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Event.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/globals.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ios.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Types.hh \
@@ -236,43 +234,24 @@ CMakeFiles/sim.dir/action.cc.o: /home/senny/sim/action.cc \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/evtdefs.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Allocator.hh \
+ /usr/include/c++/11/cstddef \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AllocatorPool.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/pwdefs.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ThreeVector.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleDefinition.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/11/stdlib.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/pwdefs.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AutoLock.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Threading.hh \
- /usr/include/c++/11/condition_variable \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/future \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleDefinition.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PrimaryVertex.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AllocatorPool.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PrimaryParticle.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleMomentum.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4SystemOfUnits.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ParticleTable.icc \
- /home/senny/sim/run.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserRunAction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Run.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VHitsCollection.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DCofThisEvent.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VDigiCollection.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VTrajectory.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserEventInformation.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Profiler.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Profiler.icc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/PTL/Globals.hh \
@@ -286,7 +265,17 @@ CMakeFiles/sim.dir/action.cc.o: /home/senny/sim/action.cc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VAnalysisManager.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnalysisManagerState.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnalysisVerbose.hh \
- /usr/include/c++/11/fstream \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Threading.hh \
+ /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/future \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \
@@ -318,6 +307,7 @@ CMakeFiles/sim.dir/action.cc.o: /home/senny/sim/action.cc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4THnToolsManager.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4THnManager.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4THnManager.icc \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AutoLock.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4THnMessenger.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UImessenger.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UIdirectory.hh \
@@ -355,140 +345,6 @@ CMakeFiles/sim.dir/action.cc.o: /home/senny/sim/action.cc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericFileManager.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericFileManager.icc \
- /home/senny/sim/event.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserEventAction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Event.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/evtdefs.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4HCofThisEvent.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VHitsCollection.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DCofThisEvent.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VDigiCollection.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TrajectoryContainer.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VTrajectory.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserEventInformation.hh \
- /home/senny/sim/stepping.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserSteppingAction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Step.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/geomdefs.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4RotationMatrix.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GeomSplitter.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/geomwdefs.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4StepPoint.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4SteppingControl.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4StepStatus.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TouchableHandle.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VTouchable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VTouchable.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Material.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Element.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Isotope.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4IonisParamElm.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4IsotopeVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ElementTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ElementVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PhysicsFreeVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PhysicsVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Log.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PhysicsVectorType.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PhysicsVector.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4IonisParamMat.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DensityEffectCalculator.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4SandiaTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4OrderedTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DataVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4MaterialTable.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Region.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Region.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4StepPoint.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TrackVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Step.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Track.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/trkdefs.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DynamicParticle.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4LorentzVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4DynamicParticle.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TrackStatus.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserTrackInformation.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PhysicsModelCatalog.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Track.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Step.hh \
- /home/senny/sim/construction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Box.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GeomTypes.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GeomConfig.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4CSGSolid.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VSolid.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VSolid.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Polyhedron.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/HepPolyhedron.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TwoVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Point3D.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Normal3D.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Transform3D.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Visible.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Visible.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Box.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4PVPlacement.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NistManager.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NistElementBuilder.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Pow.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Exp.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericMessenger.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnyType.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnyMethod.hh \
- /home/senny/sim/detector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VHit.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VReadOutGeometry.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4SensitiveVolumeList.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationHistory.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AffineTransform.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AffineTransform.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationLevel.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationLevel.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4NavigationHistory.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4TouchableHistory.icc \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4CollectionNameVector.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VSDFilter.hh
+ /home/senny/sim/run.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserRunAction.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Run.hh

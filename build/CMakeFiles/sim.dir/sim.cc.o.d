@@ -771,4 +771,10 @@ CMakeFiles/sim.dir/sim.cc.o: /home/senny/sim/sim.cc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericFileManager.hh \
- /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericFileManager.icc
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/senny/sim/event.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Event.hh \
+ /home/senny/sim/stepping.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Step.hh

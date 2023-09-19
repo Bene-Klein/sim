@@ -1,0 +1,6 @@
+#class tools::wcsv::ntuple
+#title Scoring
+#separator 44
+#vector_separator 59
+#column double EnergyDep
+2.6

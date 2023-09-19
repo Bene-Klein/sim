@@ -10,6 +10,10 @@ MyRunAction::MyRunAction()
     man->CreateNtupleDColumn("fY");
     man->CreateNtupleDColumn("fZ");
     man->FinishNtuple(0);
+
+    man->CreateNtuple("Scoring","Scoring");    
+    man->CreateNtupleDColumn("EnergyDep");
+    man->FinishNtuple(1);
 }
 
 MyRunAction::~MyRunAction()
