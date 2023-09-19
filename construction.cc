@@ -3,13 +3,15 @@
 MyDetectorConstruction::MyDetectorConstruction()
 {
     fMessenger = new G4GenericMessenger(this,"/detector/", "Detector Construction");
+    fMessenger = new G4GenericMessenger(this,"/germanium/", "Germanim Size");
 
     fMessenger->DeclareProperty("nCols", nCols, "Number of columns");
     fMessenger->DeclareProperty("nRows", nRows, "Number of rows");
+    fMessenger->DeclareProperty("gerscale", gerscale, "Germanium scale");
 
     nCols=100;
     nRows=100;
-
+    gerscale=1;
     DefineMaterials();
 }
 
@@ -38,9 +40,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double yWorld = 0.5*m;
     G4double zWorld = 0.5*m;
 
+    G4double xGermanium = 0.025*m;
+    G4double yGermanium = 0.025*m;
+    G4double zGermanium = 0.025*m;
+    
+
     //G4Box(*name,*size)
     solidWorld = new G4Box("solidWorld",xWorld,yWorld,zWorld);
-    solidGermanium = new G4Box("solidGermanium", 0.05*m,0.05*m,0.05*m);
+    solidGermanium = new G4Box("solidGermanium", gerscale*xGermanium,gerscale*yGermanium,gerscale*zGermanium);
     solidDetector = new G4Box("solidDetector",xWorld/nRows,yWorld/nCols,0.01*m);
 
     //G4LogicalVolume(*solidVolume,*material,*name)

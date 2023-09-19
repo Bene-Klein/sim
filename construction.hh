@@ -25,6 +25,7 @@ private:
     virtual void ConstructSDandField();
 
     G4int nCols, nRows;
+    G4double gerscale;
 
     G4Box *solidWorld, *solidGermanium, *solidDetector;
     G4LogicalVolume *logicWorld, *logicGermanium, *logicDetector;
