@@ -340,6 +340,15 @@ CMakeFiles/sim.dir/construction.cc.o: /home/senny/sim/construction.cc \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Pow.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4Exp.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4GenericMessenger.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UImessenger.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UIdirectory.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UIcommand.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UIparameter.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4UItokenNum.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4ApplicationState.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnyType.hh \
+ /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4AnyMethod.hh \
  /home/senny/sim/detector.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/senny/software/geant4/geant4-v11.1.2-install/include/Geant4/G4VHit.hh \

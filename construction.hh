@@ -8,6 +8,8 @@
 #include "G4PVPlacement.hh"
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh" 
+#include "G4GenericMessenger.hh"
+
 #include "detector.hh"
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction
@@ -18,7 +20,17 @@ public:
 
     virtual G4VPhysicalVolume *Construct();
 private: 
-    G4LogicalVolume *logicDetector;
     virtual void ConstructSDandField();
+
+    G4int nCols, nRows;
+
+    G4Box *solidWorld, *solidGermanium, *solidDetector;
+    G4LogicalVolume *logicWorld, *logicGermanium, *logicDetector;
+    G4VPhysicalVolume *physWorld, *physGermanium, *physDetector;
+
+    G4Material *worldMat, *germanium;
+    G4GenericMessenger *fMessenger;
+
+    void DefineMaterials();
 };
 #endif

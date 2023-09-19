@@ -6,9 +6,9 @@ MyRunAction::MyRunAction()
 
     man->CreateNtuple("Hits","Hits");
     man->CreateNtupleIColumn("fEvent");
-    man->CreateNtupleIColumn("fX");
-    man->CreateNtupleIColumn("fY");
-    man->CreateNtupleIColumn("fZ");
+    man->CreateNtupleDColumn("fX");
+    man->CreateNtupleDColumn("fY");
+    man->CreateNtupleDColumn("fZ");
     man->FinishNtuple(0);
 }
 
@@ -24,7 +24,7 @@ void MyRunAction::BeginOfRunAction(const G4Run* run)
     std::stringstream strRunID;
     strRunID << runID;
 
-    man->OpenFile("output"+strRunID.str()+".root");
+    man->OpenFile("output"+strRunID.str()+".csv");
 }
 
 void MyRunAction::EndOfRunAction(const G4Run*)
