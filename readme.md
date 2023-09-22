@@ -1,5 +1,5 @@
-#This is a introduction into programming with Geant4
+# This is a introduction into programming with Geant4
 
-##by Benedikt Klein
+## by Benedikt Klein
 
-###Thanks Eric ^^
+### Thanks Eric ^^
