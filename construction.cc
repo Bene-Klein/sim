@@ -3,10 +3,13 @@
 MyDetectorConstruction::MyDetectorConstruction()
 {
     fMessenger = new G4GenericMessenger(this,"/detector/", "Detector Construction");
-    fMessenger = new G4GenericMessenger(this,"/germanium/", "Germanim Size");
+    
 
     fMessenger->DeclareProperty("nCols", nCols, "Number of columns");
     fMessenger->DeclareProperty("nRows", nRows, "Number of rows");
+    
+    fMessenger = new G4GenericMessenger(this,"/germanium/", "Germanium Size");
+
     fMessenger->DeclareProperty("gerscale", gerscale, "Germanium scale");
 
     nCols=100;
@@ -40,9 +43,9 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double yWorld = 0.5*m;
     G4double zWorld = 0.5*m;
 
-    G4double xGermanium = 0.025*m;
-    G4double yGermanium = 0.025*m;
-    G4double zGermanium = 0.025*m;
+    G4double xGermanium = 0.05*m;
+    G4double yGermanium = 0.05*m;
+    G4double zGermanium = 0.05*m;
     
 
     //G4Box(*name,*size)
@@ -58,7 +61,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //G4PVPlacement(*Rotation,*Offset in Threevector,*logic Volume,*name,*Mothervolume,*boolean operation, *copynumber,*check for overlaps)
     physWorld = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.),logicWorld,"physWorld",0,false,0,true);
-    physGermanium = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.05*m),logicGermanium,"physGermanium",logicWorld,false,0,true);
+    physGermanium = new G4PVPlacement(0, G4ThreeVector(0.,0.,0),logicGermanium,"physGermanium",logicWorld,false,0,true);
     for(G4int i=0; i<nRows;i++)
     {
         for(G4int j=0; j<nCols;j++)

@@ -1,4 +1,4 @@
 /gun/momentumAmp 2.6 MeV
-/run/beamOn 100000
-/germanium/gerscale 0.5
+/germanium/gerscale {scale}
 /run/reinitializeGeometry 
+/run/beamOn 100000
